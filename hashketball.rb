@@ -175,6 +175,7 @@ def team_names
       team_names_array << game_hash[home_or_away][team_cats]
     end
   end
+  binding.pry
   team_names_array
 end
 
