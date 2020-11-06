@@ -174,7 +174,6 @@ def team_names
     team_cats.each do |key, value|
       if key == :team_name
         team_names_array << game_hash[home_or_away][key]
-        binding.pry
       end
     end
   end
