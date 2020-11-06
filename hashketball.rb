@@ -158,7 +158,7 @@ end
 
 def team_colors(team_name)
   game_hash.each do |home_or_away, team_cats|
-  binding.pry
+    
   end
 end
 # Write code here
