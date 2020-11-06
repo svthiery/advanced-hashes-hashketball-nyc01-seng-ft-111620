@@ -157,6 +157,8 @@ def shoe_size(player)
 end
 
 def team_colors(team_name)
-  
+  game_hash.do |home_or_away, team_cats|
+    binding.pry
+  end
 end
 # Write code here
