@@ -185,8 +185,8 @@ def player_numbers(team)
   game_hash.each do |home_or_away, team_hashes|
     team_hashes.each do |key, value|
       if key == :team_name && value = team
+        binding.pry
         game_hash[home_or_away][team_hashes][:players].each do |player|
-          binding.pry
         end
       end
     end
