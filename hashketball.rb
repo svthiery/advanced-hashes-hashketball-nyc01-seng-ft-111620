@@ -160,8 +160,7 @@ def team_colors(team)
   game_hash.each do |home_or_away, team_cats|
     team_cats.each do |key, value|
       if key == :team_name
-        binding.pry
-        if :team_name == team
+        if game_hash[home_or_away][:team_name] == team
           return game_hash[home_or_away][:colors]
         end
       end
