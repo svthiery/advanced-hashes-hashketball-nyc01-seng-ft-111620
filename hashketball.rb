@@ -173,8 +173,8 @@ def team_names
   game_hash.each do |home_or_away, team_cats|
     team_cats.each do |key, value|
       if key == :team_name
-        binding.pry
         team_names_array << game_hash[home_or_away][team_cats][:team_name]
+        binding.pry
       end
     end
   end
