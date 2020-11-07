@@ -225,8 +225,8 @@ def big_shoe_rebounds
     end
   end
   games_hash.each do |home_or_away, team_hashes|
+    binding.pry
     team_hashes.each do |key, value|
-      binding.pry
       if key == :players
       end
     end
