@@ -201,7 +201,6 @@ def player_stats(player)
     team_hashes.each do |key, value|
       if key == :players
         if value[:player_name] == player 
-          binding.pry
         end
       end
     end
