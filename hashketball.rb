@@ -188,7 +188,7 @@ def player_numbers(team)
         binding.pry
         #team_hashes[:players].each do |player|
          # jersey_numbers << player[:number]
-        end
+        #end
       end
     end
   end
