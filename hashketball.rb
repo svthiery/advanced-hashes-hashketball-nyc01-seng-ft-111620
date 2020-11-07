@@ -217,7 +217,6 @@ def big_shoe_rebounds
     team_hashes.each do |key, value|
       if key == :players
         value.each do |player_hash|
-          binding.pry
           if player_hash[:shoe] > largest_shoe_size
             largest_shoe_size = player[:shoe]
           end
