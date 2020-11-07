@@ -213,7 +213,7 @@ end
 def big_shoe_rebounds
   largest_shoe_size = 0 
   player_with_largest_shoe_size = ""
-  games_hash.each do |home_or_away, team_hashes|
+  game_hash.each do |home_or_away, team_hashes|
     team_hashes.each do |key, value|
       if key == :players
         key.each do |player|
