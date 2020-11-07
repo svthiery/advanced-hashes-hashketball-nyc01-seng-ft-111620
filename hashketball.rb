@@ -225,6 +225,11 @@ def big_shoe_rebounds
       end
     end
   end
+  games_hash.each do |home_or_away, team_hashes|
+    team_hashes.each do |key, value|
+      
+    end
+  end
 end
 
 # Write code here
