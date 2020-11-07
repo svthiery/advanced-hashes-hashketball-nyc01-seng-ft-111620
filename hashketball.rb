@@ -187,6 +187,7 @@ def player_numbers(team)
       if key == :team_name && value = team
         which_team_hash = home_or_away
         if home_or_away == which_team_hash
+          binding.pry
           team_hashes[:players].each do |player|
             jersey_numbers << player[:number]
           end
