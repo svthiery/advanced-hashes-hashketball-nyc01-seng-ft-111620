@@ -186,9 +186,11 @@ def player_numbers(team)
     team_hashes.each do |key, value|
       if key == :team_name && value = team
         which_team_hash = home_or_away
-        team_hashes[:players].each do |player|
-          jersey_numbers << player[:number]
-        #end
+        if home_or_away == which_team_hash
+          team_hashes[:players].each do |player|
+            jersey_numbers << player[:number]
+          end
+        end
       end
     end
   end
