@@ -199,9 +199,9 @@ end
 def player_stats(player)
   game_hash.each do |home_or_away, team_hashes|
     team_hashes.each do |key, value|
+      binding.pry
       if key == :players
         if value[:player_name] == player 
-          binding.pry
         end
       end
     end
