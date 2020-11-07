@@ -196,4 +196,8 @@ def player_numbers(team)
   return jersey_numbers
 end
 
+def player_stats(team)
+  
+end
+
 # Write code here
