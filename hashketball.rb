@@ -188,7 +188,6 @@ def player_numbers(team)
         which_team_hash = home_or_away
         if home_or_away == which_team_hash
           team_hashes[:players].each do |player|
-            binding.pry
             jersey_numbers << player[:number]
           end
         end
