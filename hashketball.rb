@@ -227,7 +227,12 @@ def big_shoe_rebounds
   game_hash.each do |home_or_away, team_hashes|
     team_hashes.each do |key, value|
       if key == :players
-        binding.pry
+        value.each do |player_hash|
+          if :shoe == largest_shoe_size
+            return player_hash[:rebounds]
+          end
+        end
+      end
       end
     end
   end
