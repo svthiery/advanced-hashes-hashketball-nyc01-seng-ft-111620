@@ -196,8 +196,11 @@ def player_numbers(team)
   return jersey_numbers
 end
 
-def player_stats(team)
-  
+def player_stats(player)
+  game_hash.each do |home_or_away, team_hashes|
+    team_hashes.each do |key, value|
+    end
+  end
 end
 
 # Write code here
